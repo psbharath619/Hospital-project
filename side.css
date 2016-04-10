@@ -1,0 +1,47 @@
+#sidebar
+{
+	left:0px;
+	height: 1000px;
+	background-color:#5500ff;
+	position:relative;
+}
+
+
+#sidebar ul
+{
+
+margin-left:0px;
+box-sizing:border-box;
+}
+
+
+#sidebar li
+{
+box-sizing:border-box;
+list-style-type: none;
+float:left;
+
+font-family: Calibri,Tahoma,sans-serif;
+font-size:17px;
+width: 100%;
+left:0px;
+right:2px;
+height:70px;
+border: solid 2px #000000;
+
+}
+
+#sidebar li a
+{
+color:white;
+text-decoration:none;
+line-height:55px;
+
+
+}
+
+#sidebar li:hover
+{
+background-color:gray;
+-webkit-transition: 0.15s ease-in-out;
+}
